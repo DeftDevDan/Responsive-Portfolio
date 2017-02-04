@@ -322,11 +322,11 @@ button {
 	}
 
 	.top li a {
-		width: 33.3%;
-		padding-left: 10%;
-		padding-right: 10%;
-		font-size: .8em;
+		font-size: 1em;
 		text-align:center;
+		width: 33.3%;
+		padding-left: 4%;
+		padding-right: 4%;
 	}
 
 	.top h1 a {
