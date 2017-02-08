@@ -209,9 +209,42 @@ button {
 	.top h1 {
 		margin-left: 9px;
 	}
+
+	.leftPic {
+		width: 100%;
+		float: none;
+		text-decoration:none;
+	}
+
+	.rightPic {
+		width: 100%;
+		text-decoration:none;
+	}
+
+	.leftPic img {
+		width: 100%;
+	}
+
+	.rightPic img {
+		width: 100%;
+	}
+
+	.leftH3 {
+		width: 100%;
+		float: none;
+		height: 20px;
+	}
+
+	.rightH3 {
+		width: 100%;
+	}
+
+	#lastPic {
+		display: none;
+	}
 }
 
-@media screen and (max-width: 768px) and (min-width: 641px) {
+@media screen and (max-width: 768px) {
 	.wrapper {
 		width: 95%;
 		margin-left: auto;
@@ -254,6 +287,7 @@ button {
 	.leftPic {
 		width: 47%;
 		text-decoration: none;
+		float:left;
 	}
 
 	.rightPic {
@@ -298,8 +332,7 @@ button {
 	}
 
 	.content {
-		width: 85%;
-		margin:none;
+		width: 90%;
 	}
 
 	.content h1 {
@@ -358,6 +391,7 @@ button {
 		width: 100%;
 		padding: 0px;
 		margin:0px;
+		margin-top: 120px;
 	}
 
 	.connect h2 {
